@@ -22,7 +22,7 @@ const Homepage = () => {
   return (
     <div>
       <LogoAnimation>
-        <img src="/Jacobs_Dreams/images/mylogo.jpeg" />
+        <img src="/images/mylogo.jpeg" />
       </LogoAnimation>
 
       <WelcomeContainer>

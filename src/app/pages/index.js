@@ -28,7 +28,7 @@ const Homepage = () => {
       <WelcomeContainer>
         <WelcomeContent>
           <WelcomeImg>
-            <img src="/Jacobs_Dreams/images/variousHome.jpeg" alt="horse" width="600" height="450" />
+            <img src="/images/variousHome.jpeg" alt="variousdrinks" width="600" height="450" />
           </WelcomeImg>
           <WelcomeContentText className='animate__animated animate__zoomIn'>
             <WelcomeContentTitle>Welcome, {logged1 === true ? firstName === "" ? userName : firstName : "guest"}</WelcomeContentTitle>

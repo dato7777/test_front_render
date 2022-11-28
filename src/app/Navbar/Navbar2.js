@@ -119,7 +119,7 @@ const Navbar2 = () => {
     return (
         <div ref={$root} className="menu" >
             {/* here is my logo on the left side of navbar  */}
-            <Link to={"/"}><img src="/Jacobs_Dreams/images/mylogo.jpeg" alt="horse" width="100" height="100"  style={{ position: "fixed", top: "10px", left: "10px" }} /></Link> 
+            <Link to={"/"}><img src="/images/mylogo.jpeg" alt="horse" width="100" height="100"  style={{ position: "fixed", top: "10px", left: "10px" }} /></Link> 
             {/* here starts the iteration through nav items  */}
             {navItems.map((item, index) => (
                 <div key={index}>
